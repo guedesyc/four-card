@@ -1,1 +1,135 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+:root{
+--cor1: hsl(0, 78%, 62%);
+--cor2: hsl(180, 62%, 55%);
+--cor3: hsl(34, 97%, 64%);
+--cor4: hsl(212, 86%, 64%);
+--cor5: hsl(234, 12%, 34%);
+--cor6: hsl(229, 6%, 66%);
+--cor7: hsl(0, 0%, 98%);
+}
+*{
+    margin: 0px;
+}
+.primeiralinha{
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 200;
+    margin: 20px 0px 5px 0px;
+
+}
+.segundalinha{
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 600;
+    margin: 0px 0px 30px 0px;
+}
+h2{
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+
+}
+.center{
+    text-align: center;
+}
+
+/*  ----------------TUDO DO MAIN --------------- */
+
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor7);
+    border-top: 10px solid var(--cor2);
+    box-shadow: 2px 1px 5px black;
+    border-radius: 10px;
+    padding: 70px;
+    max-width: 350px;
+
+}
+.bloco1 img{
+    position: relative;
+    left: 90%;
+}
+
+
+.bloco2{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: var(--cor7);
+    border-top: 10px solid var(--cor1);
+    box-shadow: 2px 1px 5px black;
+    border-radius: 10px;
+    padding: 70px;
+    max-width: 350px;
+    margin: 50px;
+}
+.bloco2 img{
+    position: relative;
+    left: 90%;
+}
+
+.bloco3{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: var(--cor7);
+    border-top: 10px solid var(--cor3);
+    box-shadow: 2px 1px 5px black;
+    border-radius: 10px;
+    padding: 70px;
+    max-width: 350px;
+    margin: 50px;
+}
+.bloco3 img{
+    position: relative;
+    left: 90%;
+}
+
+.bloco4{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: var(--cor7);
+    border-top: 10px solid var(--cor4);
+    box-shadow: 2px 1px 5px black;
+    border-radius: 10px;
+    padding: 70px;
+    max-width: 350px;
+}
+
+.bloco4 img{
+        position: relative;
+        left: 90%;
+}
+
+.fonte h1{
+    font-family: 'Poppins', Arial, sans-serif;
+    color: black;
+
+}
+
+.fonte h2{
+    font-family: 'Poppins', Arial, sans-serif;
+    color: var(--cor6);
+}
+
+.align .fonte{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+body{
+    margin: 50px;
+}
